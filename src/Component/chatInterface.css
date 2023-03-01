@@ -1,0 +1,26 @@
+.Chat_Interaface{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.Vertical_line{
+    /* position: absolute; */
+    height: 100%;
+    z-index: 0;
+}
+
+.Vertical_line:hover{
+    cursor: e-resize;
+}
+.Names{
+    background-color: yellow;
+    max-width: 450px;
+}
+.chatting{
+    /* position: absolute; */
+    flex: 1;
+    flex-direction: row;
+    height: 100%;
+    background-color: lawngreen;
+ 
+}
